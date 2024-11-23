@@ -98,7 +98,6 @@
   max-width: 580px;
   height: 80px;
   font-family: "Inter";
-  font-style: 400;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -126,4 +125,8 @@
   .recipes__video-caption{
     display: flex;
     justify-content: space-between;
+  }
+
+  .recipes__iframe{
+
   }
