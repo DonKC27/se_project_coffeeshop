@@ -139,7 +139,7 @@
   }
 
   .reservation__title{
-  margin-bottom: 0 80px;
+  margin-bottom: 80px;
   text-align: center;
   font-family: Inter;
   font-style: normal;
@@ -179,6 +179,10 @@
    font-size: 20px;
    line-height: 30px;
    color: #000;
+ }
+
+ ::placeholder{
+  color: #fff;
  }
 
   .form__button{
