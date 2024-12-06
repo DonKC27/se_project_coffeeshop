@@ -34,14 +34,14 @@ max-width: 438px;
   justify-content: center;
   gap: 40px;
   list-style-type: none;
-  margin:24px 0 0;
+  margin: 0;
   padding: 0;
 }
 
 .recipes__video-caption{
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 24px 0 0;
   padding: 0;
 }
 
