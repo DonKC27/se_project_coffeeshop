@@ -1,7 +1,7 @@
 .about {
   background-color: #0a2850;
   color: #fff;
-  font-family: "Inter",Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
@@ -36,26 +36,25 @@
 .about__circle {
   position: absolute;
   border-radius: 50%;
-  background-color: #1878DC;
+  background-color: #1878dc;
   width: 426px;
   height: 426px;
   top: -152px;
   left: -129px;
   z-index: -1;
-
 }
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
-  @keyframes pulsate {
-    0% {
-     opacity: 0;
-    }
-    50% {
-     opacity: 0.6;
-    }
-    100% {
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
     opacity: 0;
     transform: scale(1.3);
   }
